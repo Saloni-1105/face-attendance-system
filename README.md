@@ -33,6 +33,7 @@ Java, Maven, JavaCV (OpenCV), MySQL, JDBC
 2. Menu 2: train the model (do this after every new registration).
 3. Menu 3: start attendance. Close the camera window to stop.
 4. Menu 4 or 5: view attendance reports.
+5. Menu 6: open the teacher dashboard (total, present and absent students for today).
 
 ## Project structure
 ```

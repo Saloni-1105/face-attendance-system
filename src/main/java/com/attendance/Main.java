@@ -16,7 +16,8 @@ public class Main {
             System.out.println("3. Start attendance");
             System.out.println("4. View today's report");
             System.out.println("5. View report by date");
-            System.out.println("6. Exit");
+            System.out.println("6. Open teacher dashboard");
+            System.out.println("7. Exit");
             System.out.print("Choose: ");
             String choice = sc.nextLine().trim();
 
@@ -40,7 +41,8 @@ public class Main {
                     System.out.print("Enter date (yyyy-MM-dd): ");
                     new AttendanceDAO().printReport(sc.nextLine().trim());
                 }
-                case "6" -> {
+                case "6" -> DashboardWindow.open();
+                case "7" -> {
                     System.out.println("Bye!");
                     System.exit(0);
                 }
